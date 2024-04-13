@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s18839\\Downloads\\zadanie\\LegacyApp\\LegacyApp.csproj": {}
+    "/home/tomasz/RiderProjects/APBD_c02/LegacyApp/LegacyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s18839\\Downloads\\zadanie\\LegacyApp\\LegacyApp.csproj": {
+    "/home/tomasz/RiderProjects/APBD_c02/LegacyApp/LegacyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s18839\\Downloads\\zadanie\\LegacyApp\\LegacyApp.csproj",
+        "projectUniqueName": "/home/tomasz/RiderProjects/APBD_c02/LegacyApp/LegacyApp.csproj",
         "projectName": "LegacyApp",
-        "projectPath": "C:\\Users\\s18839\\Downloads\\zadanie\\LegacyApp\\LegacyApp.csproj",
-        "packagesPath": "C:\\Users\\s18839\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s18839\\Downloads\\zadanie\\LegacyApp\\obj\\",
+        "projectPath": "/home/tomasz/RiderProjects/APBD_c02/LegacyApp/LegacyApp.csproj",
+        "packagesPath": "/home/tomasz/.nuget/packages/",
+        "outputPath": "/home/tomasz/RiderProjects/APBD_c02/LegacyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s18839\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tomasz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,16 +32,29 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

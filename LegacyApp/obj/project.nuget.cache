@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "OHqGLok9jvWnsjVF1pqxxQkOdtQHFW2diaDM7Dg9Fvn7+19C10219gvPVj6yQvFCfvCMA4M8Sx4bdSKzkZynRw==",
+  "dgSpecHash": "4aid4++p5ORYzEsx5HfdXYSJ4KHAi2lkydjLk1/B/pdyzzss+K6yJlA/J7Kk6VgKHOagzgsr7iTLP5ButrwnYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s18839\\Downloads\\zadanie\\LegacyApp\\LegacyApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/tomasz/RiderProjects/APBD_c02/LegacyApp/LegacyApp.csproj",
+  "expectedPackageFiles": [
+    "/home/tomasz/.nuget/packages/xunit/2.7.1/xunit.2.7.1.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.analyzers/1.12.0/xunit.analyzers.1.12.0.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.assert/2.7.1/xunit.assert.2.7.1.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.core/2.7.1/xunit.core.2.7.1.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.extensibility.core/2.7.1/xunit.extensibility.core.2.7.1.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.extensibility.execution/2.7.1/xunit.extensibility.execution.2.7.1.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.runner.console/2.7.1/xunit.runner.console.2.7.1.nupkg.sha512",
+    "/home/tomasz/.nuget/packages/xunit.runner.visualstudio/2.5.8/xunit.runner.visualstudio.2.5.8.nupkg.sha512"
+  ],
   "logs": []
 }
